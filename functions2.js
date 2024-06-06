@@ -1,7 +1,5 @@
 function  add(a,b){
-    console.log("GOOD MORNING")
-
-    console.log("GOOD NIGHT")
+    console.log(a+b)
 
 }
-  add( 10,20)
+  add(10,20 )
