@@ -14,4 +14,12 @@ console.log(emp)
 delete emp.salary
 console.log(emp)
 
+emp.name = "nikil"
+console.log(emp)
+  emp.sal = 56000
+  console.log(emp)
+
+  delete emp.name
+  console.log(emp)
+
 
