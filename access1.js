@@ -1,4 +1,4 @@
-let enames = ["muni","saru"]
+let enames = ["muni","saru","kkkkk"]
 
-let index = enames[1]
-console.log(index);
+ enames.pop("kkkkk")
+console.log(enames);
