@@ -1,5 +1,6 @@
 let employees = [
-    
+    {},
+    {}
 ]
 let array= []
 
