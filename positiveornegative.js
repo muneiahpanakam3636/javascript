@@ -6,3 +6,4 @@ if(num>0){
 else{
     console.log("it is a negative num")
 }
+

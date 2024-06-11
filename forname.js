@@ -3,4 +3,3 @@ for(ename  of enames){
     console.log(ename)
 }
 
-delete muni;
