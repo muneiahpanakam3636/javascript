@@ -850,14 +850,7 @@ function displayData(){
         </tr>`
         }
 
-       else{
-        rows = rows + ` <tr>
-                     <td>${user.id}</td>
-                       <td>${user.name}</td>
-                       <td>${user.email}</td>
-                         <td>${user.gender}</td>
-        <tr/>`
-       }
+       
     }
     
    document.getElementsByTagName('tbody')[0].innerHTML = rows
