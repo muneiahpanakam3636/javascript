@@ -20,10 +20,11 @@ let cars = [
 
 // }]
 
+
 let white_Cars = cars.filter((car)=>{
-    return car.color=="white"
+    return car.color=="White"
 })
-console.log('white_Cars');
+console.log(white_Cars);
 
 // let white_Cars=cars.filter((car)=>{
 //     return car.color=="White"
