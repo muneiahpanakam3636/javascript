@@ -6,4 +6,4 @@ console.log(firstFruit); // Output: "apple"
 
 // Access the third element
 const thirdFruit = fruits[2];
-console.log(thirdFruit); // Output: "orange"
+console.log(thirdFruit); // Output: "orange" m  
