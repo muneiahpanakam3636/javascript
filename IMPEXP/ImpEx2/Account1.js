@@ -1,7 +1,7 @@
 class Account1{
     acc_Name;
     acc_email;
-    acc_address;
+    acc_address;    
     constructor(name,email,addr){
         this.acc_Name=name
         this.acc_email=email
@@ -11,4 +11,4 @@ class Account1{
 
     }
 }
-module.export = Account1;
+module.exports = Account1;
