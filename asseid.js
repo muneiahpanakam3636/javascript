@@ -1,13 +1,13 @@
-let eids = [101,102,103,104]
+// let eids = [101,102,103,104]
 
 
-let new_eids = []
-for(  eid  of eids){
+// let new_eids = []
+// for(  eid  of eids){
 
-    new_eids.push(eid+1)
+//     new_eids.push(eid+1)
 
-}
-console.log(new_eids);
+// }
+// console.log(new_eids);
 
 
 
@@ -25,15 +25,15 @@ console.log(new_eids);
 
 
 
-// let eids = [101,102,103,104]
-// let new_eids=[]
+let eids = [101,102,103,104]
+let new_eids=[]
 
-// var i=0;
-// while(i<=eids.length-1){
-//     new_eids.push[i];
-//     i++;
-// }
-// console.log(new_eids);
+var i=0;
+while(i<=eids.length-1){
+    new_eids.push[i];
+    i++;
+}
+console.log(new_eids);
 
 
 
