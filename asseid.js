@@ -11,29 +11,29 @@
 
 
 
-// let eids = [101,102,103,104]
-
-
-// let new_eids = []
-// for(  var i=0;i<=eids.length-1;i++)
-//     console.log(eids[i]+1);
-
-
-// console.log(new_eids);
-
-
-
-
-
 let eids = [101,102,103,104]
-let new_eids=[]
 
-var i=0;
-while(i<=eids.length-1){
-    new_eids.push[i];
-    i++;
-}
+
+let new_eids = []
+for(  var i=0;i<=eids.length-1;i++)
+    new_eids.push(eids[i]+1)
+
+
 console.log(new_eids);
+
+
+
+
+
+// let eids = [101,102,103,104]
+// let new_eids=[]
+
+// var i=0;
+// while(i<=eids.length-1){
+//     new_eids.push[i];
+//     i++;
+// }
+// console.log(new_eids);
 
 
 
