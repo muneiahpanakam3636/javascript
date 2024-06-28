@@ -1,13 +1,13 @@
-// let eids = [101,102,103,104]
+let eids = [101,102,103,104]
 
 
-// let new_eids = []
-// for(  eid  of eids){
+let new_eids = []
+for(  eid  of eids){
 
-//     new_eids.push(eid+1)
+    new_eids.push(eid+1)
 
-// }
-// console.log(new_eids);
+}
+console.log(new_eids);
 
 
 
@@ -101,16 +101,16 @@
 
 // rest operator;
 
-function add(a,...b){
-    console.log(a,  b);
+// function add(a,...b){
+//     console.log(a,  b);
 
-}
-add(10,20)
-add(10,20,30)
-add(10,20,30,40)
-add(10,20,30,40,50)
+// }
+// add(10,20)
+// add(10,20,30)
+// add(10,20,30,40)
+// add(10,20,30,40,50)
 
-add(10,20,30,40,50,60)
+// add(10,20,30,40,50,60)
 
 
 
