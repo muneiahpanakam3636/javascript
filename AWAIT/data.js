@@ -26,7 +26,15 @@ let displayData = ()=>{
     },2000)
 
 }
-createEmployee({id:103,name:"priya",sal:75000},displayData)
+let lunchTime =async ()=>{
+
+
+await createEmployee({id:103,name:"priya",sal:75000})
+displayData()
+
+
+}
+lunchTime()
 
 
    

@@ -3,12 +3,16 @@ let employees=[
     {'id':101,name:"Rahul Gandhi",sal:45000},
     {'id':102,name:"Sonia Gandhi",sal:55000},
 ]
-let createEmployee=(emp,callback)=>{
-    setTimeout(()=>{
-        employees.push(emp);
-        callback();
-    },4000)
 
+let createEmployee =(emp)=>{
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            let flag = true;
+            flag?resolve("data installed"):reject("failed")
+            employees.push(emp)
+
+        },3000)
+    })
 }
 let displayData = ()=>{
     setTimeout(()=>{
@@ -23,13 +27,10 @@ let displayData = ()=>{
     }
 
     document.getElementById('abc').innerHTML=rows
-    },2000)
+    },1000)
 
 }
-createEmployee({id:103,name:"priya",sal:75000},displayData)
-
-
-   
-   
-    
+createEmployee({id:103,name:"priya",sal:75000})
+.then((msg)=>{console.log(msg),displayData()})
+.catch((error)=>{console.log(error)})
 
