@@ -7,3 +7,5 @@ console.log(firstFruit); // Output: "apple"
 // Access the third element
 const thirdFruit = fruits[2];
 console.log(thirdFruit); // Output: "orange" m  
+const secondFruit = fruits[1];
+console.log(secondFruit);
