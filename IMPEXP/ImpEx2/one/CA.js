@@ -22,3 +22,4 @@ class CA extends Account{
 }
 let ca1 = new CA(101,5000,"raju",'raju@gmail')
 console.log(ca1);
+
