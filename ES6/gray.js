@@ -1,3 +1,4 @@
+
 let cars = [
     {model:'swift', brand:"Maruthi",price:900000, color:"White"},
     {model:'Xuv300', brand:"Mahindra",price:1400000, color:"Red"},
@@ -11,7 +12,7 @@ let cars = [
     {model:'Seltos', brand:"KIA",price:2400000, color:"White"}
 ]
 
-let  Blue_cars = cars.filter((car)=>{
-    return car.color==="Blue"
+let gray_cars = cars.filter((car)=>{
+    return car.color==="gray"
 })
-console.log(Blue_cars);
+console.log(gray_cars);

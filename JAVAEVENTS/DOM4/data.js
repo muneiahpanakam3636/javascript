@@ -1,5 +1,5 @@
 function changeCase(){
-    alert('test case 123')
+    // alert('test case 123')
     let input_Tag_Ref = document.getElementsByTagName('input')[1];
     console.log(input_Tag_Ref );
     let uname = input_Tag_Ref.value;
@@ -14,7 +14,7 @@ function changeCase(){
 
 
 function changeCase(){
-    alert('Test Case 123')
+    // alert('Test Case 123')
     let input_Tag_Ref  = document.getElementsByTagName('input')[1];
     console.log(input_Tag_Ref)
     let uname = input_Tag_Ref.value;

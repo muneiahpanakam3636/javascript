@@ -13,6 +13,6 @@ let cars = [
 
 
 let Red_cars = cars.filter((car)=>{
-    return car.color = "Red"
+    return car.color === "Red"
 })
 console.log(Red_cars);
